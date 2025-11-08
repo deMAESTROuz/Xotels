@@ -189,6 +189,8 @@
 /* Mobil holatda menyu ko‘rsatish */
 @media (max-width: 989px) {
     .header_menu {
+        width: 24px;
+        height: 24px;
         display: block;
     }
 
@@ -242,7 +244,6 @@
     }
 
     .header_btn {
-        font-family: Inter Tight, sans-serif;
         font-weight: 700;
         font-size: 16px;
         line-height: 100%;
@@ -266,14 +267,15 @@
         border: none;
         background-color: transparent;
         width: 24px;
-        display: block;
+        height: 24px;
+        display: flex;
     }
 
     @media (max-width:648px) {
 
         .header {
             padding-top: 19px;
-            padding-bottom: 19px;
+            padding-bottom: 16px;
         }
 
         .header_logo {
